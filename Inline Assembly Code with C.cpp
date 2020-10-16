@@ -61,7 +61,7 @@ int main()
     CODE_ENDS:
     }
 
-    // See the output and memory
+    // See the output and memory 
     printf("\nAssembly code starts at the memory location :: %p", ptr_codeStartsAt);
     int machineDbWord = 100;
     printf("\n%d double words (4 bytes) of machine code starting at location %p :: \n", machineDbWord, ptr_codeStartsAt);
